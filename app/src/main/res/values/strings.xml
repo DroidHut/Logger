@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Logger</string>
+    <string name="facebook_app_id">771567986337813</string>
+    <string name="fb_login_protocol_scheme">fb771567986337813</string>
+    <string name="title_activity_logger_details">LoggerDetailsActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="navigation_drawer_open">Drawer is Open</string>
+    <string name="navigation_drawer_close">Drawer is Closed</string>
+    <string name="sharesuggestion">\nDownload This RSS parser Application for Latest News Feeds.\n\n</string>
+    <string name="sug">Select One</string>
+    
+    <string-array name="group_one_titles">
+        <item>Facebook</item>
+        <item>Google +</item>
+        <item>Twitter</item>
+        <item>Instagram</item>
+        <item>LinkedIn</item>
+        <item>Snapchat</item>
+        <item>Reddit</item>
+        <item>Pinterest</item>
+        <item>Tumblr</item>
+        <item>Viber</item>
+        <item>MySpace</item>
+        <item>Vimeo</item>
+        <item>Flickr</item>
+        <item>Vine</item>
+        <item>digg</item>
+        <item>vk</item>
+        
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_text">
+       <![CDATA[
+   <p><b>Crazy</b> Logger</p>
+        ]]>
+    </string>
+
+</resources>

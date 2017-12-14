@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="onetitle" />
+    <item type="id" name="oneimg" />
+    <item type="id" name="content" />
+    <item type="id" name="del" />
+    <item type="id" name="newsDate" />
+    <item type="id" name="newsDateImage" />
+    <item type="id" name="newsShare" />
+    <item type="id" name="newsCategory" />
+    <item type="id" name="newsAuthor" />
+</resources>

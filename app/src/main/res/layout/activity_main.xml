@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/appText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@color/blue"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:transitionName="simple_activity_transition"
+        tools:ignore="UnusedAttribute"/>
+    
+   <LinearLayout
+       android:layout_below="@+id/appText2"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp"
+       android:layout_marginTop="20dp"
+       android:layout_marginBottom="40dp"
+       android:background="@drawable/edit_text_background"
+       android:elevation="10dp"
+       android:layout_centerInParent="true">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+ 
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs2"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:minHeight="45dp"
+            android:background="#ffffff"
+            android:layout_gravity="bottom"
+            android:isScrollContainer="true"
+            android:elevation="0dp"
+            app:tabSelectedTextColor="@color/blue"
+            app:tabIndicatorColor="#00ffffff"
+            app:tabTextColor="@color/lightgrey"
+            app:tabPadding="3dp"
+            app:tabMode="scrollable"
+            app:tabGravity="center"
+            app:tabTextAppearance="@style/MyCustomTextAppearance"/>
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="1dp"
+               android:background="#80cecece"/>
+        <android.support.v4.view.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/container" />
+       </LinearLayout>
+    </LinearLayout>
+   
+</RelativeLayout>
